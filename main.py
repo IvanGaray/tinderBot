@@ -66,5 +66,6 @@ class TinderBot():
                             seeWLYMbtn.click()
                         except Exception as e:
                             print(e)
+                            self.driver.close()
     
 TinderBot()
